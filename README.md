@@ -3,6 +3,7 @@ A 5-bit, two's complement calculator that performs addition and subtraction. Mad
 
 # Logicly Model
 To test the computer model Calculator.logicly under schematics/, go to https://logic.ly/ and use the free online editor or download the software. The schematics for each of the components and sub components descriped in the "Components" section below can also be found in the schematics/ directory.
+![picture](screenshots/Calculator Screen Shot.png)
 
 # Usage
 The calculator only performs operations on sigle digit decimal numbers ([0, 9]) and outputs results in a 5-bit two's complemet format. Since the largest positive number that can be represented is 15, when the output is greater than 15, the calculator outputs -32 to indicate overflow.
